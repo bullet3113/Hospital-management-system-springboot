@@ -31,7 +31,6 @@ public class PatientRepository {
 
     public void dischargePatientById(String patientId) {
         this.patientDB.remove(patientId);
-        this.overallPatients--;
     }
 
     public int getOverallPatients() {
